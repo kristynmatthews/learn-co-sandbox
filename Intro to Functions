@@ -1,0 +1,5 @@
+function convertToMeters(feet) {
+  var meters = feet / 3.2808;
+  var rounded = meters.toFixed(2);
+  return rounded + " meters";
+}
